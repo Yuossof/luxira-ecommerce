@@ -1,0 +1,13 @@
+.swiper-slide {
+    display: flex;
+  }
+  .swiper-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .swiper-pagination-bullet-active{
+    border-radius: 10px;
+    width: 30px;
+    height: 8px;
+  }

@@ -1,0 +1,28 @@
+.location::before {
+    content: '';
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 2px;
+    z-index: -1;
+    background-color: #EDEDED;
+}
+.search::before{
+    content: '';
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 2px;
+    z-index: -1;
+    background-color: #EDEDED;
+}
+.searchInput::placeholder{
+    transition: all 0.3s ease;
+}
+.searchInput:focus::placeholder{
+    opacity: 0;
+}
